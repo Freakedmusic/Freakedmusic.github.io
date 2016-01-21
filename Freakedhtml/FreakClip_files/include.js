@@ -1,14 +1,14 @@
 
 
 
-    
+
 
 
     var domain = 'faust.grame.fr';
     if (domain == '')
         domain = window.location.hostname;
 
-    
+
 
 
     (function () {
@@ -21,13 +21,12 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-69647670-1', 'auto', { 'name': 'as25n45' });
-        var dimensionValue = 'proxynetflix';
         ga('as25n45.set', 'dimension1', dimensionValue);
         ga('as25n45.send', 'pageview');
 
     })();
 
-    
+
 
 
     (function () {
@@ -126,7 +125,7 @@
                 config = adSense160x600Config.cloneNode(true);
             if (w == 468 && h == 60)
                 config = adSense468x60Config.cloneNode(true);
-                 
+
             if (config != null) {
 
                 if (iframe) {
@@ -278,8 +277,6 @@
 
 
 
-       
+
 
     })();
-
-
