@@ -21,6 +21,7 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-69647670-1', 'auto', { 'name': 'as25n45' });
+        var dimensionValue = 'proxynetflix';
         ga('as25n45.set', 'dimension1', dimensionValue);
         ga('as25n45.send', 'pageview');
 
