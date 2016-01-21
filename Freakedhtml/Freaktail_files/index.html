@@ -1508,7 +1508,7 @@ _f4u$t.main = function(raw_json, div, callback) {
     _f4u$t.assign_parameters_to_values(URLParams);
     // we make sure all JS and CSS is loaded before we build the UI
     _f4u$t.load_css_and_then_js(URLParams.css, URLParams.js);
-
+    
     var width = $(div).width();
     if (width == 0) {
         // HUOM: this "- 15" is a kludge and should dealt with more elegantly
@@ -1517,7 +1517,7 @@ _f4u$t.main = function(raw_json, div, callback) {
     var height = $(div).height();
     if (height == 0) {
         // HUOM: this "- 17" is a kludge and should dealt with more elegantly
-        height = $(window).height() ;
+        height = $(window).height() - 17;
     }
     if (callback) {
         _f4u$t.HANDLER_CALLBACKS.push(function(address, value) {
